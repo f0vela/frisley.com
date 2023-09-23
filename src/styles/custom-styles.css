@@ -1,0 +1,49 @@
+/* gradient heading */
+.main-heading {
+  display: inline-block;
+  margin: 2rem 0;
+  font-style: normal;
+  font-weight: 600;
+  background: linear-gradient(
+    89.81deg,
+    #45e850 -1.72%,
+    #ffdd33 54.05%,
+    #dd5789 99.78%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-size: 150% 150%;
+  animation: gradient 15s ease infinite;
+  line-height: 1.2;
+}
+
+.progress-grad {
+  margin: 0;
+  background: linear-gradient(
+    90deg,
+    #dd5789 -1.72%,
+    #ffdd33 50.05%,
+    #45e850 99.78%
+  );
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 150% 150%;
+  animation: gradient 15s ease infinite;
+  line-height: 1.2;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}

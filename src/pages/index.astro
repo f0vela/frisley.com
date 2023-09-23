@@ -1,0 +1,41 @@
+---
+import { info } from "@data";
+
+import Layout from "@layouts/Layout.astro";
+import Hero from "@components/home/Hero.astro";
+import Experience from "@components/home/Experience.astro";
+import Knowledge from "@components/home/Knowledge.astro";
+import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
+import MetaHead from "@components/general/MetaHead.astro";
+
+const featureProjects = info.projects.reduce((accumulator, project) => {
+  if (accumulator.length < 6 && project.isFeatured) {
+    accumulator.push(project);
+  }
+  return accumulator;
+}, []);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <MetaHead
+      title={"Portafolio"}
+      description={info.about}
+      ogImageUrl={"/assets/images/profile.png"}
+    />
+  </head>
+
+  <body>
+    <Layout>
+      <Hero name={info.name} about={info.about} />
+      <Knowledge title={"Lenguajes"} details={info.knowledge} />
+      <Knowledge title={"Bases de datos"} details={info.databases} />
+      <Knowledge title={"Frameworks"} details={info.frameworks} />
+      <section>
+        <h2 class="w-[15rem] dark:text-light mt-16">Proyectos destacados</h2>
+        <ProjectsWrapper projects={featureProjects} />
+      </section>
+    </Layout>
+  </body>
+</html>
