@@ -12,81 +12,81 @@ export const info = {
   knowledge: [
     {
       name: "PHP",
-      percentage: "97",
+      borderColor: "hover:border-[#7C7FB6]",
       category: "language",
       logoUrl: "",
       description: [
-        "- Frontend, Backend, API."
+        "Frontend, Backend, API, Laravel, Codeigniter, LeafPHP, FlightPHP, Vanilla."
       ],
     },
 
     {
       name: "HTML",
-      percentage: "95",
+      borderColor: "hover:border-[#E45530]",
       category: "language",
       logoUrl: "",
       description: [
-        "- Frontend."
+        "Frontend, Webpage templating, Email templating"
       ],
     },
 
     {
       name: "CSS",
-      percentage: "90",
+      borderColor: "hover:border-[#2178BD]",
       category: "language",
       logoUrl: "",
       description: [
-        "- Frontend, SCSS."
+        "Vanilla, SCSS, Bootstrap, Tailwind."
       ],
     },
 
     {
       name: "Javascript",
-      percentage: "88",
+      borderColor: "hover:border-yellow-300",
       category: "language",
       logoUrl: "",
       description: [
-        "- Frontend, interactivity, animation."
+        "Vanilla, React, React Native, Astro, jQuery."
       ],
     },
 
     {
       name: "C#",
-      percentage: "60",
+      borderColor: "hover:border-[#7F3B9D]",
       category: "language",
       logoUrl: "",
       description: [
-        "- Frontend, Backend, API."
+        "Desktop, Hardware integration, API."
       ],
     },
 
     {
       name: "Swift",
-      percentage: "60",
+      borderColor: "hover:border-[#F54031]",
       category: "language",
       logoUrl: "",
       description: [
-        "- Frontend, iOS."
+        "Mobile iOS development."
       ],
     },
 
     {
       name: "Java",
-      percentage: "60",
+      borderColor: "hover:border-[#EC282F]",
       category: "language",
       logoUrl: "",
       description: [
-        "- Android."
+        "Mobile android development."
       ],
     },
 
     {
       name: "Go",
-      percentage: "70",
+      borderColor: "hover:border-[#6ECBDC]",
       category: "language",
       logoUrl: "",
       description: [
-        "- Backend, API."
+        "Backend, API."
       ],
     },
 
@@ -95,80 +95,43 @@ export const info = {
   databases: [
     {
       name: "MySQL",
-      percentage: "85",
+      borderColor: "hover:border-[#1D668E]",
       category: "database",
       logoUrl: "",
       description: [
+        "Create, modify, manage, optimize, develop and diagram."
       ],
     },
-
+    {
+      name: "SQLite",
+      borderColor: "hover:border-[#2B93D5]",
+      category: "database",
+      logoUrl: "",
+      description: [
+        "Create, modify, manage, develop and diagram."
+      ],
+    },
     {
       name: "SQL Server",
-      percentage: "88",
+      borderColor: "hover:border-[#BBBBBB]",
       category: "database",
       logoUrl: "",
       description: [
+        "Create, modify, develop and diagram."
       ],
     },
-
     {
       name: "Oracle",
-      percentage: "60",
+      borderColor: "hover:border-[#E92E36]",
       category: "database",
       logoUrl: "",
       description: [
+        "Create, modify, develop and diagram."
       ],
     },
     
   ],
 
-  frameworks: [
-    {
-      name: "React Native",
-      percentage: "85",
-      category: "framework",
-      logoUrl: "",
-      description: [
-      ],
-    },
-
-    {
-      name: "React",
-      percentage: "80",
-      category: "database",
-      logoUrl: "",
-      description: [
-      ],
-    },
-
-    {
-      name: "Tailwind",
-      percentage: "70",
-      category: "framework",
-      logoUrl: "",
-      description: [
-      ],
-    },
-
-    {
-      name: ".NET",
-      percentage: "80",
-      category: "framework",
-      logoUrl: "",
-      description: [
-      ],
-    },
-
-    {
-      name: "FlightPHP",
-      percentage: "98",
-      category: "framework",
-      logoUrl: "",
-      description: [
-      ],
-    },
-
-  ],
 
   socialMedia: {
     facebook: "https://www.facebook.com/frisley.velasquez",
