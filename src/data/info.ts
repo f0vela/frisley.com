@@ -143,14 +143,101 @@ export const info = {
 
   projects: [
     {
+      title: "barolo.com.gt",
+      year: "2023",
+      isFeatured: true,
+      thumbnail: "/assets/images/proyectos/barolo/barolo_1.jpg",
+      githubUrl: "",
+      liveUrl: "",
+    },
+    {
+      title: "diestra.com",
+      year: "2023",
+      isFeatured: true,
+      thumbnail: "/assets/images/proyectos/diestra/diestra_1.jpg",
+      githubUrl: "",
+      liveUrl: "",
+    },
+    {
+      title: "bhtreats.com",
+      year: "2022",
+      isFeatured: true,
+      thumbnail: "/assets/images/proyectos/bhtreats/bhtreats_1.jpg",
+      githubUrl: "",
+      liveUrl: "https://bhtreats.com",
+    },
+    {
+      title: "permaweld.net",
+      year: "2022",
+      isFeatured: true,
+      thumbnail: "/assets/images/proyectos/permaweld/permaweld_1.jpg",
+      githubUrl: "",
+      liveUrl: "https://permaweld.net",
+    },
+    {
+      title: "vid.casadedios.org",
+      year: "2020",
+      isFeatured: true,
+      thumbnail: "/assets/images/proyectos/vid/vid_1.jpg",
+      githubUrl: "",
+      liveUrl: "https://vid.casadedios.org",
+    },
+    {
+      title: "voluntarioscdd.com",
+      year: "2022",
+      isFeatured: true,
+      thumbnail: "/assets/images/proyectos/voluntarioscdd/voluntarioscdd_2.png",
+      githubUrl: "",
+      liveUrl: "https://voluntarioscdd.com/",
+    },
+    {
+      title: "acecogua.com.gt",
+      year: "2022",
+      isFeatured: true,
+      thumbnail: "/assets/images/proyectos/acecogua/acecogua_1.jpg",
+      githubUrl: "",
+      liveUrl: "https://acecogua.com.gt",
+    },
+    {
+      title: "acecogua.com.gt eventos",
+      year: "2023",
+      isFeatured: true,
+      thumbnail: "/assets/images/proyectos/acecogua-eventos/acecoguaev_2.jpg",
+      githubUrl: "",
+      liveUrl: "https://acecogua.com.gt/ev",
+    },
+    {
+      title: "tresconstructores.com",
+      year: "2022",
+      isFeatured: false,
+      thumbnail: "/assets/images/proyectos/tresconstructores/tresconstructores_1.png",
+      githubUrl: "",
+      liveUrl: "",
+    },
+    {
+      title: "servimpresos.com",
+      year: "2020",
+      isFeatured: false,
+      thumbnail: "/assets/images/proyectos/servimpresos/servimpresos_1.jpg",
+      githubUrl: "",
+      liveUrl: "",
+    },
+    {
+      title: "servitecnicamedica.com",
+      year: "2019",
+      isFeatured: false,
+      thumbnail: "/assets/images/proyectos/servitecnicamedica/servitecnicamedica_1.jpg",
+      githubUrl: "",
+      liveUrl: "",
+    },
+    {
       title: "adoralocontodo.com",
       year: "2014",
-      isFeatured: true,
+      isFeatured: false,
       thumbnail: "/assets/images/proyectos/2014/06/2014-06-21-adoralocontodo-com/adoralocontodo_1.png",
       githubUrl: "",
       liveUrl: "",
     },
-
     {
       title: "The learning group",
       isFeatured: false,
@@ -161,7 +248,7 @@ export const info = {
 
     {
       title: "Acción mob",
-      isFeatured: true,
+      isFeatured: false,
       thumbnail: "/assets/images/proyectos/2014/06/2014-06-04-accionmob-com/accionmob_1.png",
       githubUrl: "",
       liveUrl: "",
@@ -177,28 +264,45 @@ export const info = {
 
     {
       title: "Hyundai",
+      year: "2014",
       isFeatured: false,
       thumbnail: "/assets/images/proyectos/2014/06/2014-06-21-hyundai-guatemala/hyundai_1.png",
       githubUrl: "",
       liveUrl: "",
     },
-
     {
       title: "Mazda es Didea",
+      year: "2014",
       isFeatured: false,
       thumbnail: "/assets/images/proyectos/2014/06/2014-06-21-mazda-es-didea/mazdaesdidea_1.png",
+      githubUrl: "",
+      liveUrl: "",
+    },
+    {
+      title: "Didea usados",
+      year: "2014",
+      isFeatured: false,
+      thumbnail: "/assets/images/proyectos/2014/06/2014-06-04-dideausados-com/dideausados_1.png",
       githubUrl: "",
       liveUrl: "",
     },
 
     {
       title: "BurgerKing Guatemala",
+      year: "2014",
       isFeatured: false,
       thumbnail: "/assets/images/proyectos/2014/06/2014-06-21-burger-king-guatemala/bkgt_1.png",
       githubUrl: "",
       liveUrl: "",
     },
-
+    {
+      title: "Revista granito de arena",
+      year: "2013",
+      isFeatured: false,
+      thumbnail: "/assets/images/proyectos/2013/06/2013-06-10-revista-granito-de-arena-2/granito_1.jpg",
+      githubUrl: "",
+      liveUrl: "",
+    },
     {
       title: "Fripollo Chapín",
       isFeatured: false,
@@ -241,7 +345,7 @@ export const info = {
 
     {
       title: "Clarity - Sistema de documentación",
-      isFeatured: true,
+      isFeatured: false,
       thumbnail: "/assets/images/proyectos/2012/06/2012-06-21-clarity-sistema-de-documentacion/clarity_1.png",
       githubUrl: "",
       liveUrl: "",
@@ -257,7 +361,7 @@ export const info = {
 
     {
       title: "Branding Machine",
-      isFeatured: true,
+      isFeatured: false,
       thumbnail: "/assets/images/proyectos/2012/06/2012-06-21-branding-machine/braining_5.png",
       githubUrl: "",
       liveUrl: "",
@@ -273,7 +377,7 @@ export const info = {
 
     {
       title: "Ensancha 2011",
-      isFeatured: true,
+      isFeatured: false,
       thumbnail: "/assets/images/proyectos/2012/06/2012-06-21-ensancha-2011/ensancha11_1.jpg",
       githubUrl: "",
       liveUrl: "",
@@ -302,7 +406,7 @@ export const info = {
     },
     {
       title: "CDC - CAP",
-      isFeatured: true,
+      isFeatured: false,
       thumbnail: "/assets/images/proyectos/2012/05/2012-05-21-cdc-cap-centro-america-y-panama/cdccap_1.png",
       githubUrl: "",
       liveUrl: "",
