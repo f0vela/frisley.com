@@ -148,7 +148,7 @@ export const info = {
       isFeatured: true,
       thumbnail: "/assets/images/proyectos/barolo/barolo_1.jpg",
       githubUrl: "",
-      liveUrl: "",
+      liveUrl: "https://barolo.com.gt/new",
     },
     {
       title: "diestra.com",
@@ -156,7 +156,7 @@ export const info = {
       isFeatured: true,
       thumbnail: "/assets/images/proyectos/diestra/diestra_1.jpg",
       githubUrl: "",
-      liveUrl: "",
+      liveUrl: "https://frisley.com/diestra",
     },
     {
       title: "bhtreats.com",
@@ -212,7 +212,7 @@ export const info = {
       isFeatured: false,
       thumbnail: "/assets/images/proyectos/tresconstructores/tresconstructores_1.png",
       githubUrl: "",
-      liveUrl: "",
+      liveUrl: "https://tresconstructores.com",
     },
     {
       title: "servimpresos.com",
@@ -228,7 +228,7 @@ export const info = {
       isFeatured: false,
       thumbnail: "/assets/images/proyectos/servitecnicamedica/servitecnicamedica_1.jpg",
       githubUrl: "",
-      liveUrl: "",
+      liveUrl: "https://servitecnicamedica.com",
     },
     {
       title: "adoralocontodo.com",
@@ -360,7 +360,7 @@ export const info = {
     },
 
     {
-      title: "Branding Machine",
+      title: "Braining Brands",
       isFeatured: false,
       thumbnail: "/assets/images/proyectos/2012/06/2012-06-21-branding-machine/braining_5.png",
       githubUrl: "",
