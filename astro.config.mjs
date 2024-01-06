@@ -10,7 +10,9 @@ import mdx from "@astrojs/mdx";
 export default defineConfig({
   site: "https://frisley.com",
   integrations: [
-    tailwind(),
+    tailwind({
+      applyBaseStyles: true,
+    }),
     sitemap({
       changefreq: "weekly",
       priority: 0.7,

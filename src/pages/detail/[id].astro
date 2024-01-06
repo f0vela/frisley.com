@@ -1,0 +1,84 @@
+---
+import { info } from "@data";
+
+import Layout from "@layouts/Layout.astro";
+import MetaHead from "@components/general/MetaHead.astro";
+
+export const getStaticPaths = async () => {
+  const paths = info.projects.map((project) => ({
+    params: { id: project.id },
+    props: { project },
+  }));
+  return paths;
+};
+
+type Props = {
+  project: {
+    id: string;
+    title: string;
+    year: string;
+    isFeatured: boolean;
+    thumbnail: string;
+    gallery: string[];
+    githubUrl: string;
+    liveUrl: string;
+    description: string;
+  };
+};
+
+const { project } = Astro.props as Props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <MetaHead
+      title={"Proyectos"}
+      description={"Todos los proyectos estan disponibles en esta pagina."}
+      ogImageUrl={"/assets/images/profile.png"}
+    />
+  </head>
+
+  <body>
+    <Layout>
+      <button
+        class="bg-dark text-white py-2 px-5 w-full md:mr-5 md:w-20 rounded-xl icon-before icon-solid icon-arrow-left dark:bg-white dark:text-dark"
+        onclick="history.back()"></button>
+
+      <h1 class="text-4xl md:text-6xl" style="line-height: 1.2;">
+        {project.title}
+      </h1>
+
+      <br />
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+        {
+          project.gallery.map((item) => (
+            <div>
+              <img class="h-auto max-w-full rounded-lg" src={item} alt="" />
+            </div>
+          ))
+        }
+      </div>
+
+      <div
+        class="bg-white border border-gray-200 rounded-lg shadow dark:bg-dark dark:border-dark"
+      >
+        <div class="py-5">
+          <a href="#"> </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray">
+            {project.year}
+          </p>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray">
+            <a href={project.liveUrl} class="text-blue" target="_blank"
+              >{project.liveUrl}</a
+            >
+          </p>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray">
+            {project.description}
+          </p>
+        </div>
+      </div>
+    </Layout>
+    <script src="../../../node_modules/flowbite/dist/flowbite.min.js"></script>
+  </body>
+</html>

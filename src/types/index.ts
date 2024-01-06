@@ -24,6 +24,7 @@ export interface IExperiences {
 export interface IKnowledge {
   name: string;
   percentage: string;
+  borderColor: string;
   category: string;
   logoUrl: string;
   description: string[];
@@ -31,21 +32,33 @@ export interface IKnowledge {
 
 export interface IKnowledges {
   title: string;
+  borderColor: string;
   percentage: number;
   details: IKnowledge[];
 }
 
 export interface IProject {
+  id: string;
   title: string;
+  type: string;
+  year: string;
   isFeatured: boolean;
   thumbnail: string;
+  gallery: string[];
   githubUrl: string;
   liveUrl: string;
+  description: string;
 }
 export interface IProjects {
   projects: IProject[];
 }
 
+export interface IMProjects {
+  mobile_projects: IProject[];
+}
+export interface IDProjects {
+  desktop_projects: IProject[];
+}
 export interface IProjectDetails {
   projectDetail: IProject;
 }

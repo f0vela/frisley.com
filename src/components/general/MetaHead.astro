@@ -63,7 +63,7 @@ const { title, description, ogImageUrl } = Astro.props as IMetaHead;
     <meta property="twitter:image" content={`${info.baseUrl}${ogImageUrl}`} />
   )
 }
-
+<link rel="stylesheet" href="/assets/fonts/fontawesome/css/all.min.css" />
 <!-- preload assests -->
 <link
   rel="preload"
@@ -77,3 +77,5 @@ const { title, description, ogImageUrl } = Astro.props as IMetaHead;
   as="font"
   crossorigin
 />
+
+<script src="/assets/fonts/fontawesome/js/all.min.js" is:inline></script>

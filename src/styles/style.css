@@ -13,9 +13,11 @@
   body {
     @apply bg-light dark:bg-dark;
   }
+
   .container {
     @apply max-w-[1112px] mx-auto px-4;
   }
+
   h1,
   h2,
   h3,
@@ -24,21 +26,26 @@
   h6 {
     @apply font-outfit;
   }
+
   h1 {
     @apply text-6xl sm:text-8xl main-heading;
   }
+
   h2 {
     @apply text-xl font-semibold;
   }
+
   p,
   li,
   a {
     @apply font-inter text-dark-gray;
   }
+
   .footer-icons {
     @apply dark:text-light flex items-center border border-dark dark:border-light p-4 rounded-lg justify-center;
   }
-  .my-16{
+
+  .my-16 {
     margin-top: 2rem !important;
     margin-bottom: 2rem !important;
   }

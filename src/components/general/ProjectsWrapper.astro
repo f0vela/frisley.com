@@ -1,10 +1,82 @@
 ---
-import { IProjects } from "@types";
+import { IProjects, IMProjects, IDProjects } from "@types";
 import ProjectCard from "./ProjectCard.astro";
 
 const { projects } = Astro.props as IProjects;
 ---
 
-<div class="grid md:grid-cols-3 grid-cols-1 gap-4 my-16">
-  {projects.map((project) => <ProjectCard projectDetail={project} />)}
+<div class="flex items-center justify-center py-4 md:py-8 flex-wrap">
+  <button
+    type="button"
+    onclick="showTab(1)"
+    class="text-blue-700 hover:text-blue border border-blue-600 bg-white hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:bg-gray-900 dark:focus:ring-blue-800"
+    >Web</button
+  >
+  <button
+    type="button"
+    onclick="showTab(2)"
+    class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-gray-900 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-gray dark:focus:ring-gray-800"
+    >Mobile Apps</button
+  >
+  <button
+    type="button"
+    onclick="showTab(3)"
+    class="text-gray-900 border border-white hover:border-gray-200 dark:border-gray-900 dark:bg-gray-900 dark:hover:border-gray-700 bg-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-full text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-gray dark:focus:ring-gray-800"
+    >Desktop Apps</button
+  >
 </div>
+<div class="mt-4">
+  <div id="tab1" class="tab-content">
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-16">
+      {
+        projects
+          .filter((project) => project.type === "website")
+          .map((project) => <ProjectCard projectDetail={project} />)
+      }
+    </div>
+  </div>
+  <div id="tab2" class="tab-content hidden">
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-16">
+      {
+        projects
+          .filter((project) => project.type === "mobile")
+          .map((projects) => <ProjectCard projectDetail={projects} />)
+      }
+    </div>
+  </div>
+  <div id="tab3" class="tab-content hidden">
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 my-16">
+      {
+        projects
+          .filter((project) => project.type === "desktop")
+          .map((projects) => <ProjectCard projectDetail={projects} />)
+      }
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+  function showTab(tabIndex) {
+    const tabButtons = document.querySelectorAll(".flex button");
+    const tabContents = document.querySelectorAll(".tab-content");
+
+    // Hide all tab buttons and content
+    tabButtons.forEach((button) => {
+      button.classList.remove("bg-blue-500", "text-white");
+      button.classList.add("bg-gray-200", "text-gray-600");
+    });
+    tabContents.forEach((content) => {
+      content.classList.add("hidden");
+    });
+
+    // Show the selected tab button and content
+    const selectedTabButton = document.querySelector(
+      `.flex button:nth-child(${tabIndex})`
+    );
+    const selectedTabContent = document.getElementById(`tab${tabIndex}`);
+
+    selectedTabButton.classList.remove("bg-gray-200", "text-gray-600");
+    selectedTabButton.classList.add("bg-blue-500", "text-white");
+    selectedTabContent.classList.remove("hidden");
+  }
+</script>

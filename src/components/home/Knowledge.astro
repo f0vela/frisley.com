@@ -11,13 +11,13 @@ const { title, details } = Astro.props as IKnowledges;
   <div class="w-full grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4">
     {
       details.map((item) => (
-        <div class:list={['my-1.5 px-5 py-5 rounded-md border-2 border-transparent', item.borderColor, 'shadow-md bg-neutral-800']}>
+        <div class:list={['my-1.5 px-5 py-5 rounded-md border-2 bg-light-gray border-transparent', item.borderColor, 'shadow-md dark:bg-neutral-800']}>
           <div class="justify-between items-center">
             <h5 class="font-semibold">{item.name}</h5>
           </div>
           <ul class="mt-3">
             {item.description.map((item) => (
-              <li class="dark:text-gray">{item}</li>
+              <li class="text-black dark:text-gray">{item}</li>
             ))}
           </ul>
         </div>

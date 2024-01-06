@@ -5,10 +5,10 @@ import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
 import MetaHead from "@components/general/MetaHead.astro";
 import Layout from "@layouts/Layout.astro";
 
-const Projects = info.projects.map((project) => project);
+const Proyects = info.projects.map((project) => project);
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <MetaHead
@@ -21,7 +21,7 @@ const Projects = info.projects.map((project) => project);
   <body>
     <Layout>
       <h1 style="line-height: 1.2;">Proyectos</h1>
-      <ProjectsWrapper projects={Projects} />
+      <ProjectsWrapper projects={Proyects} />
     </Layout>
   </body>
 </html>
