@@ -154,6 +154,7 @@ export const info = {
       githubUrl: "",
       liveUrl: "https://barolo.com.gt/new",
       description: "Website redesign and products data update.",
+      techUsed: "Wordpress, PHP, MySQL, HTML, CSS, Javascript, Elementor.",
     },
     {
       id: "proj-2",
@@ -171,6 +172,7 @@ export const info = {
       githubUrl: "",
       liveUrl: "https://geatecnologia.com",
       description: "Website redesign to reach students.",
+      techUsed: "Wordpress, PHP, MySQL, HTML, CSS, Javascript, Divi.",
     },
     {
       id: "proj-3",
@@ -189,7 +191,8 @@ export const info = {
       ],
       githubUrl: "",
       liveUrl: "https://oi502.pro",
-      description: "Website dedicated to buy and sell properties.",
+      description: "Website dedicated to showcase inmobiliary projects and buy and sell properties.",
+      techUsed: "Wordpress, PHP, MySQL, HTML, CSS, Javascript, Divi.",
     },
     {
       id: "proj-4",
@@ -207,6 +210,7 @@ export const info = {
       githubUrl: "",
       liveUrl: "https://frisley.com/diestra",
       description: "Website redesign to refresh the image and make it more professional and modern.",
+      techUsed: "Wordpress, PHP, MySQL, Javascript, HTML, CSS, Elementor.",
     },
     {
       id: "proj-5",
@@ -224,6 +228,7 @@ export const info = {
       githubUrl: "",
       liveUrl: "https://bhtreats.com",
       description: "Website dedicated to promote dog treats and the community that produces them.",
+      techUsed: "Wordpress, Woocommerce, WPBakery, PHP, MySQL, HTML, CSS, Javascript.",
     },
     {
       id: "proj-6",
@@ -241,6 +246,7 @@ export const info = {
       githubUrl: "",
       liveUrl: "http://okguate.com",
       description: "Website dedicated to sell cars, new, used, and classics.",
+      techUsed: "Wordpress, Woocommerce, WPBakery, PHP, MySQL, HTML, CSS, Javascript.",
     },
     {
       id: "proj-7",
@@ -257,7 +263,8 @@ export const info = {
       ],
       githubUrl: "",
       liveUrl: "https://permaweld.net",
-      description: "",
+      description: "Website to showcase permaweld products.",
+      techUsed: "Wordpress, WPBakery, PHP, MySQL, HTML, CSS, Javascript.",
     },
     {
       id: "proj-8",
@@ -274,7 +281,8 @@ export const info = {
       ],
       githubUrl: "",
       liveUrl: "https://vid.casadedios.org",
-      description: "Webapp developed to gather and display information about people, groups, academies, etc... from Casa de Dios church.",
+      description: "Webapp developed to gather and display information about people, groups, academies, etc... from Casa de Dios church. Used weekly by +3000 users for eLearning, form submits, file uploading, email sending, etc...",
+      techUsed: "PHP, MySQL,HTML, CSS,  LeafPHP 3, Bootstrap, jQuery, HTMX, Javascript, Nginx, Composer, PHPStan, API development, API Integration, Payment bridge integration (Págalo).",
     },
     {
       id: "proj-9",
@@ -291,7 +299,8 @@ export const info = {
       ],
       githubUrl: "",
       liveUrl: "https://voluntarioscdd.com/",
-      description: "Website dedicated to show information about the benefits a CDD volunteer has.",
+      description: "Website dedicated to show information about the benefits of being an active CDD volunteer. Frontend and backend development.",
+      techUsed: "PHP, MySQL, HTML, CSS, FlightPHP, Bootstrap, jQuery, Javascript.",
     },
     {
       id: "proj-10",
@@ -308,7 +317,8 @@ export const info = {
       ],
       githubUrl: "",
       liveUrl: "https://acecogua.com.gt",
-      description: "Website dedicated to the Asociación de Centros Comerciales de Guatemala.",
+      description: "Website dedicated to the Asociación de Centros Comerciales de Guatemala. Used by +1000 users montlhy.",
+      techUsed: "Wordpress, Divi, PHP, MySQL, HTML, CSS, Javascript, API Integration, Payment bridge (QPayPro).",
     },
     {
       id: "proj-11",
@@ -323,7 +333,8 @@ export const info = {
       ],
       githubUrl: "",
       liveUrl: "https://acecogua.com.gt/ev",
-      description: "Webapp dedicated to help the Asociación de Centros Comerciales de Guatemala to organize events, send notifications, etc.",
+      description: "Webapp dedicated to help the Asociación de Centros Comerciales de Guatemala to organize events, send notifications, invoice sending, certification generation, survey creation and management, etc.",
+      techUsed: "PHP, MySQL, Javascript, jQuery, HTML, CSS, Bootstrap, FlightPHP, Composer.",
     },
     {
       id: "proj-12",
@@ -339,6 +350,7 @@ export const info = {
       githubUrl: "",
       liveUrl: "https://tresconstructores.com",
       description: "Informational website for Tres Constructores, where they showcase their projects, services, etc.",
+      techUsed: "Wordpress, WPBakery, PHP, MySQL, HTML, CSS, Javascript.",
     },
     {
       id: "proj-13",
@@ -356,6 +368,7 @@ export const info = {
       githubUrl: "",
       liveUrl: "https://servimpresos.net",
       description: "Informational website for Servimpresos Guatemala",
+      techUsed: "Wordpress, WPBakery, PHP, MySQL, HTML, CSS, Javascript.",
     },
     {
       id: "proj-14",
@@ -372,6 +385,7 @@ export const info = {
       githubUrl: "",
       liveUrl: "https://servitecnicamedica.com",
       description: "Informational website for Servitecniica Medica",
+      techUsed: "Wordpress, Elementor, PHP, MySQL, HTML, CSS, Javascript.",
     },
     {
       id: "proj-15",
@@ -388,6 +402,7 @@ export const info = {
       githubUrl: "",
       liveUrl: "",
       description: "Social media agregator for Hechos 29, a youth event in Casa de Dios.",
+      techUsed: "PHP, MySQL, Javascript, jQuery, HTML, CSS.",
     },
     {
       id: "proj-16",
@@ -407,6 +422,7 @@ export const info = {
       githubUrl: "",
       liveUrl: "",
       description: "Informational website for The Learning Group.",
+      techUsed: "PHP, MySQL, Javascript, jQuery, HTML, CSS.",
     },
     {
       id: "proj-42",
@@ -426,6 +442,7 @@ export const info = {
       githubUrl: "",
       liveUrl: "",
       description: "Webapp to manage groups, people, and information for churches.",
+      techUsed: "Laravel, PHP, MySQL, Javascript, jQuery, HTML, CSS, Bootstrap.",
     },
     {
       id: "proj-43",
@@ -445,6 +462,7 @@ export const info = {
       githubUrl: "",
       liveUrl: "",
       description: "Webapp to manage projects and TODOs for Braining Brands agency.",
+      techUsed: "PHP, MySQL, Javascript, jQuery, HTML, CSS, Bootstrap.",
     },
     {
       id: "proj-17",
@@ -462,6 +480,7 @@ export const info = {
       githubUrl: "",
       liveUrl: "",
       description: "Social media agregator for Hechos 29, a youth event in Cdad. de Dios.",
+      techUsed: "PHP, MySQL, Javascript, jQuery, HTML, CSS, Bootstrap.",
     },
     {
       id: "proj-18",
@@ -481,13 +500,14 @@ export const info = {
       ],
       githubUrl: "",
       liveUrl: "",
-      description: "",
+      description: "Website for Yego Guatemala, a internet provider launched to compete with Tigo, Claro and Movistar.",
+      techUsed: "PHP, MySQL, Javascript, jQuery, HTML, CSS, Bootstrap.",
     },
     {
       id: "proj-19",
       title: "Hyundai",
       type: "website",
-      year: "2014",
+      year: "2010",
       isFeatured: false,
       thumbnail: "/assets/proyectos/hyundai-guatemala/hyundai_1.png",
       gallery: [
@@ -495,13 +515,14 @@ export const info = {
       ],
       githubUrl: "",
       liveUrl: "",
-      description: "",
+      description: "Website for Hyundai Guatemala, to showcase veichles and services.",
+      techUsed: "PHP, MySQL, Javascript, jQuery, HTML, CSS.",
     },
     {
       id: "proj-20",
       title: "Mazda es Didea",
       type: "website",
-      year: "2014",
+      year: "2010",
       isFeatured: false,
       thumbnail: "/assets/proyectos/mazda-es-didea/mazdaesdidea_1.png",
       gallery: [
@@ -510,13 +531,14 @@ export const info = {
       ],
       githubUrl: "",
       liveUrl: "",
-      description: "",
+      description: "Website for Mazda Guatemala, to showcase veichles and services.",
+      techUsed: "PHP, MySQL, Javascript, jQuery, HTML, CSS.",
     },
     {
       id: "proj-21",
       title: "Didea usados",
       type: "website",
-      year: "2014",
+      year: "2013",
       isFeatured: false,
       thumbnail: "/assets/proyectos/dideausados/dideausados_1.png",
       gallery: [
@@ -527,14 +549,15 @@ export const info = {
       ],
       githubUrl: "",
       liveUrl: "",
-      description: "",
+      description: "Website for Didea usados Guatemala, to showcase veichles and services.",
+      techUsed: "Wordpress, Woocommerce,PHP, MySQL, Javascript, jQuery, HTML, CSS.",
     },
 
     {
       id: "proj-22",
       title: "BurgerKing Guatemala",
       type: "website",
-      year: "2014",
+      year: "2010",
       isFeatured: false,
       thumbnail: "/assets/proyectos/burger-king-guatemala/bkgt_1.png",
       gallery: [
@@ -542,7 +565,8 @@ export const info = {
       ],
       githubUrl: "",
       liveUrl: "",
-      description: "",
+      description: "Website for BurgerKing Guatemala.",
+      techUsed: "PHP, MySQL, Javascript, jQuery, HTML, CSS.",
     },
     {
       id: "proj-23",
@@ -571,7 +595,8 @@ export const info = {
       ],
       githubUrl: "",
       liveUrl: "",
-      description: "",
+      description: "Website magazine made for Cementos Progreso, to show news, events and information, dedicated to the cement industry professionals.",
+      techUsed: "PHP, MySQL, Javascript, jQuery, HTML, CSS.",
     },
     {
       id: "proj-24",
@@ -585,7 +610,8 @@ export const info = {
       ],
       githubUrl: "",
       liveUrl: "",
-      description: "",
+      description: "Website made for Fripollo Chapín, a fried chicken restaurant, showing the menu, the location and social media.",
+      techUsed: "PHP, MySQL, Javascript, jQuery, HTML, CSS.",
     },
     {
       id: "proj-26",
@@ -925,7 +951,8 @@ export const info = {
       ],
       githubUrl: "",
       liveUrl: "",
-      description: "Mobile app dedicated to igleKids to mark assistence to the kids area on church, it accumulates points.",
+      description: "Mobile app dedicated to igleKids to mark assistence to the kids area on church, it accumulates points. Front-end and Back-end.",
+      techUsed: "React Native, API, GOLang, PHP, MySQL, HTML, CSS.",
     },
     {
       id: "mobproj-2",
@@ -945,6 +972,7 @@ export const info = {
       githubUrl: "",
       liveUrl: "",
       description: "Mobile app dedicated to the igleKids store where kids can exchange points for products listed.",
+      techUsed: "React Native, API, GOLang, PHP, MySQL, HTML, CSS.",
     },
     {
       id: "mobproj-3",
@@ -961,6 +989,7 @@ export const info = {
       githubUrl: "",
       liveUrl: "",
       description: "Mobile application to take attendance of the volunteers of Casa de Dios Church.",
+      techUsed: "Java, Android Studio, API, PHP, MySQL, HTML, CSS.",
     },
     {
       id: "mobproj-9",
@@ -983,10 +1012,11 @@ export const info = {
       githubUrl: "",
       liveUrl: "",
       description: "Mobile app created for the simposio event, it has users, the schedule, augmented reality, and more.",
+      techUsed: "Titanium Mobile, Android Studio, PHP, MySQL, HTML, CSS.",
     },
     {
       id: "mobproj-10",
-      title: "GassMap",
+      title: "GasMap",
       type: "mobile",
       year: "2013",
       isFeatured: false,
@@ -1001,6 +1031,7 @@ export const info = {
       githubUrl: "",
       liveUrl: "",
       description: "Mobile app listing gas station locations and prices.",
+      techUsed: "Titanium Mobile, Android Studio, PHP, MySQL, HTML, CSS.",
     },
     {
       id: "mobproj-8",
@@ -1018,12 +1049,13 @@ export const info = {
       githubUrl: "",
       liveUrl: "",
       description: "Mobile app listing the services, medical professionals and locations.",
+      techUsed: "Titanium Mobile, Android Studio, PHP, MySQL, HTML, CSS.",
     },
     {
       id: "deskproj-1",
-      title: "barolo.com.gt",
+      title: "Voluntariado CDD",
       type: "desktop",
-      year: "2023",
+      year: "2022",
       isFeatured: true,
       thumbnail: "/assets/proyectos/barolo/barolo_1.jpg",
       gallery: [
@@ -1033,8 +1065,45 @@ export const info = {
         "/assets/proyectos/barolo/barolo_5.jpg",
       ],
       githubUrl: "",
-      liveUrl: "https://barolo.com.gt/new",
-      description: "Website redesign and products data update.",
+      liveUrl: "",
+      description: "Desktop app created to register new volunteers of Casa de Dios Church, edit, inactivate and print NFC cards with their name, photo and unique code.",
+      techUsed: ".NET, C#, MySQL, PHP, API, Git, Zebra Printer",
+    },
+    {
+      id: "deskproj-2",
+      title: "Lideres CDD",
+      type: "desktop",
+      year: "2022",
+      isFeatured: true,
+      thumbnail: "/assets/proyectos/barolo/barolo_1.jpg",
+      gallery: [
+        "/assets/proyectos/barolo/barolo_1.jpg",
+        "/assets/proyectos/barolo/barolo_3.jpg",
+        "/assets/proyectos/barolo/barolo_4.jpg",
+        "/assets/proyectos/barolo/barolo_5.jpg",
+      ],
+      githubUrl: "",
+      liveUrl: "",
+      description: "Desktop app created to register new liders of Casa de Dios Church, edit, inactivate and print NFC cards with their name, photo and unique code.",
+      techUsed: ".NET, C#, MySQL, PHP, API, Git, Zebra Printer",
+    },
+    {
+      id: "deskproj-3",
+      title: "Giftcards for The Coffee House",
+      type: "desktop",
+      year: "2022",
+      isFeatured: true,
+      thumbnail: "/assets/proyectos/barolo/barolo_1.jpg",
+      gallery: [
+        "/assets/proyectos/barolo/barolo_1.jpg",
+        "/assets/proyectos/barolo/barolo_3.jpg",
+        "/assets/proyectos/barolo/barolo_4.jpg",
+        "/assets/proyectos/barolo/barolo_5.jpg",
+      ],
+      githubUrl: "",
+      liveUrl: "",
+      description: "Desktop app created to create, add funds, charge and print giftcards for The Coffee House.",
+      techUsed: ".NET, C#, MySQL, PHP, API, Git, Zebra Printer",
     },
   ],
 };

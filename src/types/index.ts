@@ -48,6 +48,7 @@ export interface IProject {
   githubUrl: string;
   liveUrl: string;
   description: string;
+  techUsed: string;
 }
 export interface IProjects {
   projects: IProject[];
